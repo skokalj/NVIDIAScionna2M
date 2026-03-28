@@ -1,0 +1,39 @@
+dataset:
+  path: "/data/hafeez/graphdata/rooms_update/dataset.npy"
+  name: "rooms_update"
+
+scene:
+  xml_root: "/data/hafeez/graphdata/rooms_update"
+
+frequency:
+  scale: 1.0e9
+
+node_features:
+  material:
+    enabled: true
+    vocab_size: 20
+    dim: 32
+  centroid: true
+  bbox: true
+  node_type:
+    enabled: true
+    dim: 3
+  frequency:
+    enabled: true
+
+model:
+  hidden_dim: 192
+  layers: 3
+  pooling: "txrx"
+  geo_dim: 16
+
+training:
+  epochs: 50
+  batch_size: 1
+  lr: 0.001
+  max_samples: -1
+
+paths:
+  z_pc: "/data/hafeez/graphdata/rooms_update/z_pc.npy"
+  checkpoint_dir: "/data/hafeez/graphdata/checkpoints"
+  output_dir: "/data/hafeez/graphdata/outputs"

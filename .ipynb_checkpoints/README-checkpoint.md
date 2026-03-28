@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# NVIDIAScionna2M
-Code from NVIDIA Academic Grant Program  - Generative AI: Training and Model Development Multimodal Datasets for Blender-prompted Generative AI of RF Channel Models
-
-<img src="https://github.com/skokalj/NVIDIAScionna2M/blob/main/WinFoFWirelessLearning.png" alt="SceneSense Pipeline" style="width: 460px; height: 800px;">
-=======
 (zubairEnv) hafeez@brev-36hgjdx8a:~/Graph$ python benchmark_genie.py
 Disabling PyTorch because PyTorch >= 2.1 is required but found 2.0.1+cu118
 None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
@@ -563,4 +557,3 @@ python train_genie.py \
 
 ---
 
->>>>>>> 144c1e7 (Initial clean code)

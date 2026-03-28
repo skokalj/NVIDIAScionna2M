@@ -1,0 +1,18 @@
+# ignore data & outputs
+data/
+results*/
+*.npy
+*.csv
+*.pt
+*.pth
+*.ckpt
+
+# env
+zubairEnv/
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+
+
