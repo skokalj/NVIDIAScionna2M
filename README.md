@@ -8,4 +8,4 @@ AI: Training and Model Development.
 
 Evaluation datasets coming soon.
 
-<img src="https://github.com/skokalj/NVIDIAScionna2M/blob/main/WinFoFWirelessLearning.png" alt="SceneSense Pipeline" style="width: 460px; height: 800px;">
+<img src="https://github.com/skokalj/NVIDIAScionna2M/blob/main/WinFoFWirelessLearning.png" alt="SceneSense Pipeline" style="width: 480px; height: 800px;">
