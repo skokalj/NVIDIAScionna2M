@@ -1,0 +1,31 @@
+# Point-MAE Reimplementation Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.19.0
+
+# Transformer utilities
+timm>=0.4.5
+
+# Configuration
+easydict>=1.9
+PyYAML>=5.4
+
+# Data handling
+h5py>=3.0.0
+tqdm>=4.60.0
+
+# Logging
+tensorboardX>=2.4
+
+# Evaluation
+scikit-learn>=0.24.0
+
+# Visualization (optional)
+matplotlib>=3.3.0
+
+# CUDA extensions (install separately)
+# pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+# pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl

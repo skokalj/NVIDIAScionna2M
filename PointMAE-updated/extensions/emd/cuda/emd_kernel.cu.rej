@@ -1,0 +1,12 @@
+--- emd_kernel.cu
++++ emd_kernel.cu
+@@ -1,4 +1,8 @@
+-#include <THC/THC.h>
++#include <ATen/ATen.h>
++#include <ATen/cuda/CUDAContext.h>
++
++#define CHECK_EQ(x, y) AT_ASSERTM((x) == (y), "CHECK_EQ failed")
++#define THCudaCheck(err) AT_CUDA_CHECK(err)
+ 
+ 
+ 

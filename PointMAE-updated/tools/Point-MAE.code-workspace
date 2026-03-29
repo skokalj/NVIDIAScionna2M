@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../data/joshi/modelnet40_meshes"
+		}
+	],
+	"settings": {}
+}

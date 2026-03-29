@@ -1,0 +1,6 @@
+NAME: CustomDataset
+DATA_PATH: /app/sid_gigs/nvidia_brev_pont_mae_class/PointMAE_classification/data/custom_processed
+N_POINTS: 8192
+NUM_CATEGORY: 22
+USE_NORMALS: True
+DATASET_NAME: custom
